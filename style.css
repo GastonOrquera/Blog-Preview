@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    background-color: rgb(246, 208, 80);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner .conteinerContent {
+    background-color: #FFFFFF;
+    padding: 16px;
+    border: 1px solid rgba(24, 24, 24, 0.527);
+    width: 18rem;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .6rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(97, 97, 97, 0.3) 10px 10px, rgba(107, 107, 107, 0.2) 15px 15px;
+}
+
+.conteiner .conteinerContent .img {
+    background-image: url(assets/images/illustration-article.svg);
+    width: 100%;
+    height: 10rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.conteiner .conteinerContent h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F4CF4F;
+    width: max-content;
+    padding: 1px 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.conteiner .conteinerContent p:first-of-type {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #757575;
+}
+
+.conteiner .conteinerContent h2 {
+    /* background-color: yellowgreen; */
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.conteiner .conteinerContent p:last-of-type {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #757575;
+}
+
+.conteiner .conteinerContent .flex {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.imgBottom {
+    background-image: url(assets/images/image-avatar.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.conteiner .conteinerContent .flex h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    font-size: .9rem;
+    font-weight: 800;
+}
